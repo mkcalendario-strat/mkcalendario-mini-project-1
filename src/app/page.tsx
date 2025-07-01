@@ -1,3 +1,4 @@
+import CompaniesBar from "@/components/CompaniesBar";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { Fragment } from "react";
@@ -7,6 +8,7 @@ export default function Home() {
     <Fragment>
       <Navbar />
       <Hero />
+      <CompaniesBar />
     </Fragment>
   );
 }

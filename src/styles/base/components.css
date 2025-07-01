@@ -14,3 +14,8 @@
     );
   background-size: 20px 20px;
 }
+
+.company-icon-color {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(0%) saturate(1%)
+    hue-rotate(24deg) brightness(95%) contrast(94%);
+}
