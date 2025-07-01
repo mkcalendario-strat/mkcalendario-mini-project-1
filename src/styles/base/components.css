@@ -2,3 +2,15 @@
   margin: auto;
   padding: 0 20px;
 }
+
+.boxes-background {
+  background-color: var(--color-white);
+  background-image:
+    linear-gradient(var(--color-neutral-200) 1px, transparent 1px),
+    linear-gradient(
+      to right,
+      var(--color-neutral-200) 1px,
+      var(--color-white) 1px
+    );
+  background-size: 20px 20px;
+}
