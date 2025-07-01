@@ -12,11 +12,11 @@ export default function CompaniesBar() {
   return (
     <div className="border-y-[1px] border-neutral-700 bg-neutral-800 py-[10px]">
       <div className="container">
-        <div className="flex flex-wrap justify-around gap-[50px]">
+        <div className="flex flex-wrap justify-around gap-[10px]">
           {COMPANIES.map((company, i) => (
             <div
               key={i}
-              className="relative aspect-video w-[100px] md:w-[150px]">
+              className="relative aspect-video w-[100px] md:w-[120px]">
               <Image
                 fill
                 alt={company.alt}

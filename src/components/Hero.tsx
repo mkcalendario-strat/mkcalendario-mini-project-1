@@ -81,10 +81,12 @@ function Avatar() {
     <div className="relative m-auto aspect-square w-full max-w-[500px] lg:mt-[-30px]">
       <Image
         fill
+        priority
         alt="avatar"
         draggable={false}
-        className="object-contain select-none"
         src="/assets/images/misc/avatar.webp"
+        sizes="(max-width: 768px) 100vw, 50vw"
+        className="object-contain select-none"
       />
     </div>
   );

@@ -16,14 +16,14 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900 py-[10px]">
       <div className="container">
         <div className="flex items-center justify-between">
-          {/* Brand */}
           <Link
             href="/"
-            className="relative h-[40px] w-[40px] overflow-hidden">
+            className="relative aspect-square w-[40px] overflow-hidden">
             <Image
               fill
-              src="/assets/images/logos/light.webp"
               alt="brand logo"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              src="/assets/images/logos/light.webp"
               className="object-contain"
             />
           </Link>

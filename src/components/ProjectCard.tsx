@@ -23,6 +23,7 @@ export default function ProjectCard({
       <div className="relative aspect-video overflow-hidden rounded-sm duration-200 group-hover:outline-2 group-hover:outline-blue-500">
         <Image
           fill
+          sizes="(max-width: 768px) 100vw, 33vw"
           alt={id}
           src={image}
           className="object-cover duration-200 group-hover:scale-[101%]"
@@ -38,15 +39,17 @@ export default function ProjectCard({
 
       <div className="flex flex-wrap gap-2">
         {stack.map((tech, i) => (
-          <Image
+          <div
             key={i}
-            alt={tech}
-            title={tech}
-            width="30"
-            height="30"
-            className="company-icon-color"
-            src={`/assets/images/stacks/${tech}.svg`}
-          />
+            className="relative aspect-square h-[30px]">
+            <Image
+              fill
+              alt={tech}
+              title={tech}
+              className="company-icon-color object-contain"
+              src={`/assets/images/stacks/${tech}.svg`}
+            />
+          </div>
         ))}
       </div>
     </Link>
