@@ -40,7 +40,7 @@ function Heading() {
         <span className="text-4xl font-black lg:text-7xl">Mark Kenneth</span>
       </h1>
 
-      <p className="mb-[10px] inline-block rounded-md bg-blue-700/30 px-[20px] py-[5px] font-bold text-blue-500 lg:absolute lg:top-[20px] lg:left-[50%] lg:mb-auto lg:ml-[140px]">
+      <p className="mb-[10px] inline-block rounded-md bg-blue-700/30 px-[20px] py-[5px] font-bold text-blue-500 lg:absolute lg:top-[10px] lg:left-[50%] lg:mb-auto lg:ml-[120px]">
         a Stratpoint Intern
       </p>
     </div>
@@ -53,7 +53,7 @@ function ActionButtons() {
 
   return (
     <div className="mb-[20px] flex flex-wrap gap-[7px] lg:absolute lg:bottom-[40px] lg:mb-auto lg:max-w-[350px]">
-      <p className="mb-[20px] text-neutral-600">
+      <p className="mb-[20px] text-neutral-200">
         I architect web applications using full-stack technology from concept to
         deployment.
       </p>
@@ -68,7 +68,7 @@ function ActionButtons() {
 
       <LinkButton
         href="/#projects"
-        className="bg-neutral-900 text-white">
+        className="bg-neutral-100 text-neutral-900">
         <i className="far fa-cube" />
         View Projects
       </LinkButton>

@@ -13,7 +13,7 @@ const NAV_LINKS = [
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 z-1 w-full bg-white py-[10px] shadow-sm">
+    <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900 py-[10px]">
       <div className="container">
         <div className="flex items-center justify-between">
           {/* Brand */}
@@ -22,7 +22,7 @@ export default function Navbar() {
             className="relative h-[40px] w-[40px] overflow-hidden">
             <Image
               fill
-              src="/assets/images/logos/dark.webp"
+              src="/assets/images/logos/light.webp"
               alt="brand logo"
               className="object-contain"
             />
@@ -79,12 +79,12 @@ function MenuItems({ isMobile, isMenuOpen }: MenuItemsProps) {
   if (!shouldDisplay) return null;
 
   return (
-    <div className="fixed top-[60px] left-0 flex h-[calc(100vh-60px)] w-full flex-col gap-[30px] bg-neutral-950 p-[20px] md:static md:top-auto md:left-auto md:h-auto md:w-auto md:flex-row md:gap-[10px] md:bg-transparent md:p-0">
+    <div className="fixed top-[60px] left-0 flex h-[calc(100vh-60px)] w-full flex-col gap-[30px] bg-neutral-900 p-[20px] md:static md:top-auto md:left-auto md:h-auto md:w-auto md:flex-row md:gap-[10px] md:bg-transparent md:p-0">
       {NAV_LINKS.map((link, i) => (
         <Link
           key={i}
           href={link.href}
-          className="block rounded-sm font-[500] text-neutral-200 duration-300 ease-in-out md:px-[15px] md:py-[5px] md:text-neutral-950 md:hover:bg-blue-50">
+          className="block rounded-sm font-[500] text-neutral-200 duration-300 ease-in-out md:px-[15px] md:py-[5px] md:text-neutral-200 md:hover:bg-neutral-700">
           {link.label}
         </Link>
       ))}
