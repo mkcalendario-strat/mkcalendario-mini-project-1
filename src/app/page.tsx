@@ -1,11 +1,11 @@
-import About from "@/components/About";
-import CompaniesBar from "@/components/CompaniesBar";
-import Experiences from "@/components/Experiences";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-import Projects from "@/components/Projects";
-import Techonologies from "@/components/Techonologies";
+import About from "@/components/sections/landing/About";
+import CompaniesBar from "@/components/sections/landing/CompaniesBar";
+import Experiences from "@/components/sections/landing/Experiences";
+import Footer from "@/components/sections/landing/Footer";
+import Hero from "@/components/sections/landing/Hero";
+import Projects from "@/components/sections/landing/Projects";
+import Techonologies from "@/components/sections/landing/Techonologies";
+import Navbar from "@/components/ui/Navbar";
 import { Fragment } from "react";
 
 export default function Home() {
