@@ -30,7 +30,7 @@ export default async function Techonologies() {
             name={technology.name}
             image={technology.image}
             category={technology.category}
-            className="w-[calc((100%-20px)/2)] sm:w-[calc((100%-20px*3)/4)] md:w-[calc((100%-20px*6)/7)] lg:w-[calc((100%-20px*9)/10)]"
+            className="w-[calc((100%-20px*2)/3)] sm:w-[calc((100%-20px*3)/4)] md:w-[calc((100%-20px*6)/7)] lg:w-[calc((100%-20px*9)/10)]"
           />
         ))}
       </SectionWrapper>
