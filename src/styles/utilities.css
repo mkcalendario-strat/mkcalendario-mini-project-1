@@ -1,0 +1,46 @@
+@layer utilities {
+  .boxes-background {
+    background-color: var(--color-neutral-900);
+    background-image:
+      linear-gradient(var(--color-neutral-800) 1px, transparent 1px),
+      linear-gradient(
+        to right,
+        var(--color-neutral-800) 1px,
+        var(--color-neutral-900) 1px
+      );
+    background-size: 30px 30px;
+  }
+
+  .boxes-background-inverted {
+    background-color: var(--color-neutral-800);
+    background-image:
+      linear-gradient(var(--color-neutral-900) 1px, transparent 1px),
+      linear-gradient(
+        to right,
+        var(--color-neutral-900) 1px,
+        var(--color-neutral-800) 1px
+      );
+    background-size: 30px 30px;
+  }
+
+  .company-icon-color {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(7%) saturate(9%)
+      hue-rotate(344deg) brightness(92%) contrast(98%);
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .company-icon-color:hover {
+    filter: brightness(0) saturate(100%) invert(94%) sepia(0%) saturate(0%)
+      hue-rotate(268deg) brightness(106%) contrast(108%);
+  }
+
+  .tech-box-icon-color {
+    filter: brightness(0) saturate(100%) invert(58%) sepia(14%) saturate(2139%)
+      hue-rotate(174deg) brightness(101%) contrast(101%);
+  }
+
+  .filter-gray {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(45%) saturate(4%)
+      hue-rotate(335deg) brightness(100%) contrast(87%);
+  }
+}
