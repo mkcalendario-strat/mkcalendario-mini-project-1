@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import CompaniesBar from "@/components/CompaniesBar";
 import Experiences from "@/components/Experiences";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -17,6 +18,7 @@ export default function Home() {
       <Techonologies />
       <Experiences />
       <About />
+      <Footer />
     </Fragment>
   );
 }
