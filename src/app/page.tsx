@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import CompaniesBar from "@/components/CompaniesBar";
 import Experiences from "@/components/Experiences";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
       <Projects />
       <Techonologies />
       <Experiences />
+      <About />
     </Fragment>
   );
 }

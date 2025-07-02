@@ -15,6 +15,18 @@
   background-size: 30px 30px;
 }
 
+.boxes-background-inverted {
+  background-color: var(--color-neutral-800);
+  background-image:
+    linear-gradient(var(--color-neutral-900) 1px, transparent 1px),
+    linear-gradient(
+      to right,
+      var(--color-neutral-900) 1px,
+      var(--color-neutral-800) 1px
+    );
+  background-size: 30px 30px;
+}
+
 .company-icon-color {
   filter: brightness(0) saturate(100%) invert(42%) sepia(7%) saturate(9%)
     hue-rotate(344deg) brightness(92%) contrast(98%);
