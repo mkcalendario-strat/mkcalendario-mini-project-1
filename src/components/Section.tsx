@@ -1,13 +1,16 @@
 interface SectionProps {
   id?: string;
+  className?: string;
   children: React.ReactNode;
 }
 
-export function Section({ id, children }: SectionProps) {
+export function Section({ id, className, children }: SectionProps) {
+  const classes = `py-[50px] ${className ?? ""}`.trim();
+
   return (
     <section
       id={id}
-      className="py-[50px]">
+      className={classes}>
       <div className="container">{children}</div>
     </section>
   );
