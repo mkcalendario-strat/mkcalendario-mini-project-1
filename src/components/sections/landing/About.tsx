@@ -3,7 +3,7 @@ import {
   SectionTitle,
   SectionWrapper
 } from "@/components/layouts/Section";
-import Button from "@/components/ui/Button";
+import LinkButton from "@/components/ui/LinkButton";
 import Image from "next/image";
 
 export default function About() {
@@ -11,9 +11,11 @@ export default function About() {
   const description =
     "I'm a curious and driven developer who loves turning ideas into real, working products. Whether I'm building apps, solving problems, or learning something new, I'm all in.";
 
+  const cvURL = process.env.NEXT_PUBLIC_RESUME_URL as string;
+
   return (
     <Section
-      id="projects"
+      id="about"
       className="boxes-background-inverted bg-neutral-800">
       <SectionTitle
         title={title}
@@ -68,14 +70,19 @@ export default function About() {
           </p>
 
           <div className="flex flex-wrap gap-2">
-            <Button className="bg-blue-500 text-neutral-100">
+            <LinkButton
+              href="/about"
+              className="bg-blue-500 text-neutral-100">
               Know Me More
               <i className="far fa-arrow-right" />
-            </Button>
-            <Button className="bg-neutral-100 text-neutral-900">
+            </LinkButton>
+            <LinkButton
+              href={cvURL}
+              target="_blank"
+              className="bg-neutral-100 text-neutral-900">
               View CV
               <i className="far fa-file" />
-            </Button>
+            </LinkButton>
           </div>
         </div>
       </SectionWrapper>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HighlightTab from "./HighlightTab";
 
 interface ExperienceCardProps extends Experience {
   className?: string;
@@ -27,9 +28,9 @@ export default function ExperienceCard({
         />
       </div>
 
-      <p className="inline-block rounded-sm bg-blue-500/10 px-3 py-1 text-xs font-[500] text-blue-400">
+      <HighlightTab>
         {from} - {to}
-      </p>
+      </HighlightTab>
       <h2 className="text-2xl font-bold text-neutral-100">{title}</h2>
       <p className="text-justify text-neutral-300">{description}</p>
     </div>

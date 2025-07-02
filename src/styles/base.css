@@ -1,0 +1,13 @@
+@layer base {
+  * {
+    font-family: "Geist", Arial, Helvetica, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-neutral-900);
+  }
+}
