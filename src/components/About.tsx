@@ -16,16 +16,18 @@ export default function About() {
         tag="About Me"
         description={description}
       />
-      <SectionWrapper className="flex flex-col gap-5 md:flex-row md:gap-20">
-        <div className="relative md:w-[50%]">
-          <div className="sticky top-[100px] aspect-4/3 overflow-hidden rounded-md">
-            <Image
-              fill
-              alt="me"
-              className="object-cover"
-              src="/assets/images/misc/me.webp"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
+      <SectionWrapper className="relative flex flex-col gap-5 md:flex-row md:gap-20">
+        <div className="md:w-[50%]">
+          <div className="sticky top-[100px]">
+            <div className="relative aspect-4/3 overflow-hidden rounded-md">
+              <Image
+                fill
+                alt="me"
+                className="object-cover"
+                src="/assets/images/misc/me.webp"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
           </div>
         </div>
 
