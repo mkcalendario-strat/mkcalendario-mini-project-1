@@ -1,0 +1,115 @@
+[
+  {
+    "id": "aqueyes",
+    "title": "AquEyes",
+    "description": "A deep learning-powered tool for detecting and classifying common fish eye diseases in murky waters, combining yolo, image augmentation, and real-time feedback for aquaculture monitoring.",
+    "image": "aqueyes.webp",
+    "stack": ["yolo", "albumentation", "react", "sass", "flask", "socket.io"]
+  },
+  {
+    "id": "learningaxies",
+    "title": "LEARNINGAXIES",
+    "description": "A responsive educational platform developed for Axies Education Inc., utilizing React, Sass, Node, Express, and MySQL to deliver engaging, scalable, and user-friendly learning experiences online.",
+    "image": "learningaxies.webp",
+    "stack": ["react", "sass", "express", "node", "mysql"]
+  },
+  {
+    "id": "echo",
+    "title": "ECHO",
+    "description": "A live streaming platform that replicates core Twitch features, enabling real-time video broadcasting, user interaction, and a smooth, engaging viewing experience.",
+    "image": "echo.webp",
+    "stack": [
+      "nginx",
+      "socket.io",
+      "react",
+      "sass",
+      "express",
+      "mysql",
+      "prisma"
+    ]
+  },
+  {
+    "id": "detext-ai",
+    "title": "DETEXT AI",
+    "description": "A fraud detection tool that analyzes text using a custom dataset and transformer-based natural language processing to identify suspicious or deceptive content.",
+    "image": "detext.webp",
+    "stack": ["huggingface", "react", "sass", "fastapi", "docker"]
+  },
+  {
+    "id": "auralyze-ai",
+    "title": "AURALYZE AI",
+    "description": "An intelligent tool that transcribes audio files and generates concise summaries, showcasing the capabilities of transformer-based models in natural language understanding.",
+    "image": "auralyze.webp",
+    "stack": ["huggingface", "react", "fastapi", "sass", "docker"]
+  },
+  {
+    "id": "iykyk-lang",
+    "title": "IYKYK LANG",
+    "description": "A real-time collaborative platform for analyzing lexical and syntax structures in the IYKYK programming language, designed to support shared code understanding and experimentation.",
+    "image": "iykyk-lang.webp",
+    "stack": ["next", "socket.io", "express"]
+  },
+  {
+    "id": "accuratax",
+    "title": "AccuraTax",
+    "description": "A user-friendly platform designed to simplify the complexities of the Philippine tax system, helping users better understand and manage their tax responsibilities.",
+    "image": "accuratax.webp",
+    "stack": ["react", "express", "prisma", "mysql"]
+  },
+  {
+    "id": "awit",
+    "title": "AWIT",
+    "description": " A creative tool that generates chord progressions using a Genetic Algorithm, providing musicians and composers with unique musical sequences and inspiration.",
+    "image": "awit.webp",
+    "stack": ["react", "sass", "tone"]
+  },
+  {
+    "id": "apcis",
+    "title": "APCIS",
+    "description": "An Automated Police Clearance Issuance System featuring face recognition, developed as a final project for a Modelling and Simulation course to streamline identity verification.",
+    "image": "police-clearance-issuance-system.webp",
+    "stack": ["python", "tkinter", "opencv"]
+  },
+  {
+    "id": "shopitty",
+    "title": "SHOPITTY",
+    "description": "An e-commerce platform that enables seamless online shopping experiences, complete with a secure checkout process through Stripe integration for fast and reliable payments.",
+    "image": "shopitty.webp",
+    "stack": ["stripe", "react", "sass", "express", "mongodb"]
+  },
+  {
+    "id": "messenger",
+    "title": "MESSENGER",
+    "description": "A real-time chat application that supports instant communication between users, offering a smooth and responsive messaging experience through live WebSocket connections.",
+    "image": "messenger.webp",
+    "stack": ["react", "sass", "express", "websocket", "mongodb"]
+  },
+  {
+    "id": "defuse-da-bomb",
+    "title": "DEFUSE DA BOMB",
+    "description": "A strategic puzzle game where players defuse bombs by navigating mazes using the Depth-First Search algorithm, created for a Design and Analysis Algorithms course.",
+    "image": "defuse-da-bomb.webp",
+    "stack": ["next", "sass"]
+  },
+  {
+    "id": "fastfood-kiosk",
+    "title": "FASTFOOD KIOSK",
+    "description": "A modern redesign of the Jollibee ordering system, developed as a final project to improve user interaction and streamline fast-food service through a digital interface.",
+    "image": "fastfood-kiosk.webp",
+    "stack": ["csharp", "xaml"]
+  },
+  {
+    "id": "au-sms",
+    "title": "AU-SMS",
+    "description": "A comprehensive Student Management System developed for Arellano University, recognized with the Best in Research Award.",
+    "image": "ausms.webp",
+    "stack": ["html", "css", "php", "mysql"]
+  },
+  {
+    "id": "pup-map",
+    "title": "PUP MAP",
+    "description": "An interactive campus guide for PUP Sta. Mesa, designed to help visitors navigate buildings and facilities more easily.",
+    "image": "pup-map.webp",
+    "stack": ["html", "css", "javascript"]
+  }
+]

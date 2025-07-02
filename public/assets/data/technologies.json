@@ -1,0 +1,46 @@
+[
+  { "name": "React JS", "image": "react.svg", "category": "front-end" },
+  { "name": "Vite", "image": "vite.svg", "category": "front-end" },
+  { "name": "Sass", "image": "sass.svg", "category": "front-end" },
+  { "name": "HTML", "image": "html.svg", "category": "front-end" },
+  { "name": "CSS", "image": "css.svg", "category": "front-end" },
+  { "name": "Next JS", "image": "next.svg", "category": "front-end" },
+  { "name": "TypeScript", "image": "typescript.svg", "category": "front-end" },
+  { "name": "XAML", "image": "xaml.svg", "category": "front-end" },
+  { "name": "TKinter", "image": "tkinter.svg", "category": "front-end" },
+
+  { "name": "Express JS", "image": "express.svg", "category": "back-end" },
+  { "name": "Node JS", "image": "node.svg", "category": "back-end" },
+  { "name": "FastAPI", "image": "fastapi.svg", "category": "back-end" },
+  { "name": "Flask", "image": "flask.svg", "category": "back-end" },
+  { "name": "Socket.io", "image": "socket.io.svg", "category": "back-end" },
+  { "name": "Stripe", "image": "stripe.svg", "category": "back-end" },
+  { "name": "Websocket", "image": "websocket.svg", "category": "back-end" },
+
+  { "name": "MySQL", "image": "mysql.svg", "category": "database" },
+  { "name": "Prisma", "image": "prisma.svg", "category": "database" },
+  { "name": "MongoDB", "image": "mongodb.svg", "category": "database" },
+
+  { "name": "YOLOv8", "image": "yolo.svg", "category": "ai" },
+  { "name": "Albumentation", "image": "albumentation.svg", "category": "ai" },
+  { "name": "HuggingFace", "image": "huggingface.svg", "category": "ai" },
+  { "name": "OpenCV", "image": "opencv.svg", "category": "ai" },
+
+  { "name": "JavaScript", "image": "javascript.svg", "category": "language" },
+  { "name": "Python", "image": "python.svg", "category": "language" },
+  { "name": "C#", "image": "csharp.svg", "category": "language" },
+  { "name": "PHP", "image": "php.svg", "category": "language" },
+
+  { "name": "Docker", "image": "docker.svg", "category": "devops" },
+  { "name": "PM2", "image": "pm2.svg", "category": "devops" },
+  { "name": "NGINX", "image": "nginx.svg", "category": "devops" },
+  { "name": "Git", "image": "git.svg", "category": "devops" },
+  { "name": "GitHub", "image": "github.svg", "category": "devops" },
+
+  { "name": "NPM", "image": "npm.svg", "category": "other" },
+  { "name": "Postman", "image": "postman.svg", "category": "other" },
+  { "name": "VScode", "image": "vscode.svg", "category": "other" },
+  { "name": "Windows", "image": "windows.svg", "category": "other" },
+  { "name": "Ubuntu", "image": "ubuntu.svg", "category": "other" },
+  { "name": "Tone", "image": "tone.svg", "category": "other" }
+]
