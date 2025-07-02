@@ -1,4 +1,5 @@
 import CompaniesBar from "@/components/CompaniesBar";
+import Experiences from "@/components/Experiences";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -13,6 +14,7 @@ export default function Home() {
       <CompaniesBar />
       <Projects />
       <Techonologies />
+      <Experiences />
     </Fragment>
   );
 }
