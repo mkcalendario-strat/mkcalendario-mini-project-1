@@ -6,7 +6,7 @@ import {
 import Techonology from "@/components/ui/Technology";
 
 export default async function Techonologies() {
-  const title = "Ingredients for my Recipe";
+  const title = "Ingredients for My Recipe";
   const description =
     "These are the technologies, frameworks, and tools I use to bring ideas to life that covers everything from frontend and backend development.";
 
