@@ -27,7 +27,7 @@ export default function Techonology({
         </div>
       </div>
 
-      <p className="font-[500] text-white">{name}</p>
+      <p className="font-[500] break-words text-white max-sm:text-xs">{name}</p>
     </div>
   );
 }
