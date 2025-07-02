@@ -1,5 +1,5 @@
+import LinkButton from "@/components/ui/LinkButton";
 import Image from "next/image";
-import LinkButton from "./LinkButton";
 
 const techStack = [
   { src: "/assets/images/stacks/next.svg", alt: "Next.js" },

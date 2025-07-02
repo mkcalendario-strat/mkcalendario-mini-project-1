@@ -1,5 +1,9 @@
-import { Section, SectionTitle, SectionWrapper } from "./Section";
-import Techonology from "./Technology";
+import {
+  Section,
+  SectionTitle,
+  SectionWrapper
+} from "@/components/layouts/Section";
+import Techonology from "@/components/ui/Technology";
 
 export default async function Techonologies() {
   const title = "Ingredients for my Recipe";

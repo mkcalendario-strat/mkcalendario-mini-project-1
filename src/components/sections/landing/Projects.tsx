@@ -1,5 +1,9 @@
-import ProjectCard from "./ProjectCard";
-import { Section, SectionTitle, SectionWrapper } from "./Section";
+import {
+  Section,
+  SectionTitle,
+  SectionWrapper
+} from "@/components/layouts/Section";
+import ProjectCard from "@/components/ui/ProjectCard";
 
 export default async function Projects() {
   const title = "Projects I've Cooked and Served";
