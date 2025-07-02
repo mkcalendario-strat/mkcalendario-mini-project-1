@@ -1,6 +1,10 @@
+import {
+  Section,
+  SectionTitle,
+  SectionWrapper
+} from "@/components/layouts/Section";
+import Button from "@/components/ui/Button";
 import Image from "next/image";
-import Button from "./Button";
-import { Section, SectionTitle, SectionWrapper } from "./Section";
 
 export default function About() {
   const title = "Hi, Nice to Meet You!";

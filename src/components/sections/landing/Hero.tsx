@@ -1,6 +1,6 @@
+import { ExperienceBlock } from "@/components/ui/ExperienceBlock";
+import LinkButton from "@/components/ui/LinkButton";
 import Image from "next/image";
-import { ExperienceBlock } from "./ExperienceBlock";
-import LinkButton from "./LinkButton";
 
 export default function Hero() {
   return (

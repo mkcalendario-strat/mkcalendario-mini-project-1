@@ -1,5 +1,9 @@
-import ExperienceCard from "./ExperienceCard";
-import { Section, SectionTitle, SectionWrapper } from "./Section";
+import {
+  Section,
+  SectionTitle,
+  SectionWrapper
+} from "@/components/layouts/Section";
+import ExperienceCard from "@/components/ui/ExperienceCard";
 
 const EXPERIENCES: Experience[] = [
   {
