@@ -40,7 +40,7 @@ function Heading() {
         <span className="text-4xl font-black lg:text-7xl">Mark Kenneth</span>
       </h1>
 
-      <p className="mb-[10px] inline-block rounded-md bg-blue-700/30 px-[20px] py-[5px] font-bold text-blue-500 lg:absolute lg:top-[10px] lg:left-[50%] lg:mb-auto lg:ml-[120px]">
+      <p className="mb-[10px] inline-block rounded-md bg-blue-700/30 px-[20px] py-[5px] text-sm font-bold text-blue-500 lg:absolute lg:top-[20px] lg:left-[51%] lg:mb-auto lg:ml-[120px]">
         a Stratpoint Intern
       </p>
     </div>
