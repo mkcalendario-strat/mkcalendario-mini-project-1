@@ -48,8 +48,7 @@ function Heading() {
 }
 
 function ActionButtons() {
-  const cvURL =
-    "https://drive.google.com/file/d/1IJZvTRiaGyBKgFT21eDLVxuRxUTEEJ1t/view";
+  const cvURL = process.env.NEXT_PUBLIC_RESUME_URL as string;
 
   return (
     <div className="mb-[20px] flex flex-wrap gap-[7px] lg:absolute lg:bottom-[40px] lg:mb-auto lg:max-w-[350px]">
