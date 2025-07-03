@@ -10,37 +10,41 @@ export default function SeniorHighSchoolJourney() {
   return (
     <AboutSection inverted={true}>
       <AboutImage
-        alt="mark kenneth"
+        alt="arellano university"
         src="/assets/images/school-logos/au.webp"
       />
       <AboutContent>
         <AboutTitle>Senior High School Journey</AboutTitle>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          For Senior High School, I enrolled in the Information and
+          Communication Technology strand at Arellano University – Jose Rizal
+          Campus, where I further honed my interest in programming and tech. The
+          specialized subjects in ICT helped me solidify my understanding of
+          foundational programming and computer systems.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          I joined a batch-wide programming contest, and I was fortunate to
+          place 3rd, which gave me the confidence to explore more advanced
+          coding techniques. It also gave me my first taste of competitive
+          programming, which pushed me to study deeper beyond the school
+          curriculum.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          I graduated as the top student in my strand, ranking 1st overall. That
+          achievement solidified my decision to pursue a full Computer Science
+          degree in college, as it confirmed my potential and passion for the
+          field.
+        </AboutParagraph>
+        <AboutParagraph>
+          I was also awarded <strong>Best in Software Research Project</strong>
+          for my work titled{" "}
+          <em>
+            &quot;Development of Student Information Management System of AU
+            Students – Jose Rizal Campus.&quot;{" "}
+          </em>
+          This project was instrumental in showcasing my ability to analyze user
+          needs, design efficient data structures, and build functional systems
+          that solve real academic challenges.
         </AboutParagraph>
       </AboutContent>
     </AboutSection>

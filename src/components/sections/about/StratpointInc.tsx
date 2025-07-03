@@ -14,33 +14,25 @@ export default function StratpointInc() {
         src="/assets/images/companies/stratpoint-official.webp"
       />
       <AboutContent>
-        <AboutTitle>Stratpoint</AboutTitle>
+        <AboutTitle>New Milestone</AboutTitle>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          I am currently interning at Stratpoint Inc., a leading digital
+          transformation company, where I joined before graduation as a Software
+          Engineer specializing in web development using React JS. This role is
+          helping me build my path in the tech industry by gaining valuable
+          hands-on experience.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          During my internship, I have been involved in tasks such as feature
+          implementation, debugging, and collaborating with cross-functional
+          teams. This has given me practical exposure to Scrum practices and how
+          agile teams operate to deliver quality software.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          Working alongside seasoned professionals at Stratpoint continues to
+          inspire me to grow not only my technical skills but also my
+          problem-solving, communication, and teamwork abilities—skills
+          essential to shaping my future career in technology.
         </AboutParagraph>
       </AboutContent>
     </AboutSection>

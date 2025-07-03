@@ -14,33 +14,26 @@ export default function LexMeetInc() {
         src="/assets/images/companies/lexmeet-official.webp"
       />
       <AboutContent>
-        <AboutTitle>Lorem Ipsum Dolor</AboutTitle>
+        <AboutTitle>First Industry Exposure</AboutTitle>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          My internship at LexMeet Inc. was my first official work experience in
+          a corporate setting, required by our school. I joined the front-end
+          development team, where I worked on building responsive and
+          user-friendly UI pages for the company’s website.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          During my internship, I took initiative in organizing and maintaining
+          the front-end codebase, which helped improve its structure,
+          readability, and scalability. This gave me valuable insights into how
+          scalable applications are maintained in a collaborative development
+          environment.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          Collaboration was key during this internship. I worked closely with
+          co-interns and supervisors using Git and GitLab for version control,
+          code reviews, and task coordination. This experience gave me a clearer
+          picture of the software development lifecycle in a real-world tech
+          company.
         </AboutParagraph>
       </AboutContent>
     </AboutSection>

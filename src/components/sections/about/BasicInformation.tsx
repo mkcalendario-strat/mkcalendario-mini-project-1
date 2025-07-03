@@ -14,33 +14,30 @@ export default function BasicInformation() {
         src="/assets/images/misc/me.webp"
       />
       <AboutContent>
-        <AboutTitle>Lorem Ipsum Dolor Sit Amet</AboutTitle>
+        <AboutTitle>Nice to Meet You!</AboutTitle>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          Hi, I&apos;m Mark Kenneth Calendario, born on October 19, 2002, and
+          currently residing in Caloocan City. I&apos;m in my fourth year as a
+          Computer Science student, striving to make a mark in the tech industry
+          with a solid background in both theory and hands-on application. Over
+          the years, I&apos;ve developed a strong interest in full-stack
+          development and continue to sharpen my skills through academic
+          projects, freelance work, and internships.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          As a full-stack developer, I enjoy building seamless, scalable
+          applications from scratch, working across both the frontend and
+          backend using modern tools and frameworks. My passion lies in solving
+          real-world problems through efficient code and user-friendly
+          interfaces. I’m currently expanding my knowledge in cloud computing
+          and system architecture to further complement my development
+          capabilities.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          Outside of academics and tech, I enjoy photography and gaming. These
+          interests help me stay balanced and maintain a creative mindset. I
+          believe in continuous learning and pushing my limits, both as a
+          developer and as an individual.
         </AboutParagraph>
       </AboutContent>
     </AboutSection>

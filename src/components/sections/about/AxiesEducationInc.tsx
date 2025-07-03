@@ -14,33 +14,27 @@ export default function AxiesEducationInc() {
         src="/assets/images/companies/axies-official.webp"
       />
       <AboutContent>
-        <AboutTitle>The Start of Tech Journey</AboutTitle>
+        <AboutTitle>Start of Tech Journey</AboutTitle>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          Axies Education Inc. marked a significant milestone in my career as it
+          was my first major freelancing client. I developed and deployed a
+          full-stack web application hosted on a virtual private server (VPS),
+          which involved end-to-end development from system design to deployment
+          and maintenance.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          My responsibilities didn&apos;t stop after deployment. I continued to
+          maintain the codebase, regularly pushing updates, fixing bugs,
+          optimizing performance, and adding new features based on the
+          company&apos;s evolving needs. This experience taught me how to handle
+          a live production environment and ensure high availability and
+          reliability.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          I utilized a modern stack consisting of Vite + React, Sass, Express,
+          Node, and Docker. This project not only strengthened my technical
+          skills but also taught me the importance of client communication, time
+          management, and delivering quality work on a freelance basis.
         </AboutParagraph>
       </AboutContent>
     </AboutSection>
