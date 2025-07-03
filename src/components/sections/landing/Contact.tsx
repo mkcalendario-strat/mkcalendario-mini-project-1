@@ -39,7 +39,9 @@ export default function Contact() {
   };
 
   return (
-    <Section className="py-[150px]">
+    <Section
+      id="contact"
+      className="py-[150px]">
       <SectionWrapper className="flex flex-col gap-[100px] md:flex-row">
         <div className="flex flex-col items-baseline gap-2 md:w-[50%]">
           <HighlightTab>Contact</HighlightTab>
