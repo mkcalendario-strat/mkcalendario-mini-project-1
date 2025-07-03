@@ -1,16 +1,22 @@
 import Image from "next/image";
 
 interface AboutSection {
+  inverted?: boolean;
   className?: string;
   children: React.ReactNode;
 }
 
-export function AboutSection({ className, children }: AboutSection) {
-  const classes = `py-[120px] ${className ?? ""}`.trim();
+export function AboutSection({ className, children, inverted }: AboutSection) {
+  const classes =
+    `py-[120px] ${className ?? ""} ${inverted ? "boxes-background-inverted" : "boxes-background"}`.trim();
+
+  const wrapperClasses =
+    `flex flex-col gap-[30px] ${inverted ? "md:flex-row-reverse" : "md:flex-row"}`.trim();
+
   return (
     <section className={classes}>
       <div className="container-thin">
-        <div className="flex flex-col gap-[30px] md:flex-row">{children}</div>
+        <div className={wrapperClasses}>{children}</div>
       </div>
     </section>
   );
