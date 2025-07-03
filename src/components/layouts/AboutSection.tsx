@@ -33,7 +33,7 @@ export function AboutImage({ src, alt }: AboutImageProps) {
   return (
     <div className="md:w-[40%]">
       <div className="md: sticky md:top-[calc(60.91px+20.91px)]">
-        <div className="relative aspect-4/3 overflow-hidden rounded-sm md:aspect-square">
+        <div className="relative aspect-square overflow-hidden rounded-sm">
           <Image
             fill
             alt={alt}
