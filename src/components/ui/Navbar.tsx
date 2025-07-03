@@ -74,6 +74,7 @@ function Menu() {
       <MenuItems
         isMobile={isMobile}
         isMenuOpen={isMenuOpen}
+        toggleMenu={toggleMenu}
       />
 
       <MenuButton
@@ -87,9 +88,10 @@ function Menu() {
 interface MenuItemsProps {
   isMobile: boolean | null;
   isMenuOpen: boolean;
+  toggleMenu: () => void;
 }
 
-function MenuItems({ isMobile, isMenuOpen }: MenuItemsProps) {
+function MenuItems({ isMobile, isMenuOpen, toggleMenu }: MenuItemsProps) {
   const shouldDisplay = (isMobile && isMenuOpen) || isMobile === false;
 
   if (!shouldDisplay) return null;
@@ -100,6 +102,7 @@ function MenuItems({ isMobile, isMenuOpen }: MenuItemsProps) {
         <Link
           key={i}
           href={link.href}
+          onClick={toggleMenu}
           className="block rounded-sm font-[500] text-neutral-200 duration-300 ease-in-out md:px-[15px] md:py-[5px] md:text-neutral-200 md:hover:bg-neutral-700">
           {link.label}
         </Link>
