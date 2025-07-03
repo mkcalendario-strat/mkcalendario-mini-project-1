@@ -8,7 +8,7 @@ import {
 
 export default function StratpointInc() {
   return (
-    <AboutSection className="boxes-background">
+    <AboutSection>
       <AboutImage
         alt="stratpoint"
         src="/assets/images/companies/stratpoint-official.webp"

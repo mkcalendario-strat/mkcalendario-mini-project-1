@@ -8,7 +8,7 @@ import {
 
 export default function AxiesEducationInc() {
   return (
-    <AboutSection className="boxes-background">
+    <AboutSection>
       <AboutImage
         alt="axies"
         src="/assets/images/companies/axies-official.webp"

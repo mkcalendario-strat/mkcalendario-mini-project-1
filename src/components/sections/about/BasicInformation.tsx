@@ -8,7 +8,7 @@ import {
 
 export default function BasicInformation() {
   return (
-    <AboutSection className="boxes-background">
+    <AboutSection>
       <AboutImage
         alt="mark kenneth"
         src="/assets/images/misc/me.webp"

@@ -8,7 +8,7 @@ import {
 
 export default function SeniorHighSchoolJourney() {
   return (
-    <AboutSection className="boxes-background-inverted">
+    <AboutSection inverted={true}>
       <AboutImage
         alt="mark kenneth"
         src="/assets/images/school-logos/au.webp"

@@ -8,7 +8,11 @@ import {
 
 export default function HighSchoolLife() {
   return (
-    <AboutSection className="boxes-background">
+    <AboutSection>
+      <AboutImage
+        alt="jose p. laurel high school"
+        src="/assets/images/school-logos/jplhs.webp"
+      />
       <AboutContent>
         <AboutTitle>High School Life</AboutTitle>
         <AboutParagraph>
@@ -39,10 +43,6 @@ export default function HighSchoolLife() {
           temporibus.
         </AboutParagraph>
       </AboutContent>
-      <AboutImage
-        alt="jose p. laurel high school"
-        src="/assets/images/school-logos/jplhs.webp"
-      />
     </AboutSection>
   );
 }

@@ -8,7 +8,11 @@ import {
 
 export default function CollegeEra() {
   return (
-    <AboutSection className="boxes-background">
+    <AboutSection>
+      <AboutImage
+        alt="polytechnic university of the philippines"
+        src="/assets/images/school-logos/pup.webp"
+      />
       <AboutContent>
         <AboutTitle>College Era</AboutTitle>
         <AboutParagraph>
@@ -39,10 +43,6 @@ export default function CollegeEra() {
           temporibus.
         </AboutParagraph>
       </AboutContent>
-      <AboutImage
-        alt="polytechnic university of the philippines"
-        src="/assets/images/school-logos/pup.webp"
-      />
     </AboutSection>
   );
 }

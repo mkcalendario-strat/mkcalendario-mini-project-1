@@ -8,7 +8,11 @@ import {
 
 export default function LexMeetInc() {
   return (
-    <AboutSection className="boxes-background-inverted">
+    <AboutSection inverted={true}>
+      <AboutImage
+        alt="lexmeet"
+        src="/assets/images/companies/lexmeet-official.webp"
+      />
       <AboutContent>
         <AboutTitle>Lorem Ipsum Dolor</AboutTitle>
         <AboutParagraph>
@@ -39,10 +43,6 @@ export default function LexMeetInc() {
           temporibus.
         </AboutParagraph>
       </AboutContent>
-      <AboutImage
-        alt="lexmeet"
-        src="/assets/images/companies/lexmeet-official.webp"
-      />
     </AboutSection>
   );
 }
