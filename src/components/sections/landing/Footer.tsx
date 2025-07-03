@@ -29,7 +29,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="py-[50px]">
+    <footer className="bg-neutral-800 py-[50px]">
       <div className="container">
         <div className="flex flex-col items-center gap-5 text-center">
           <div className="relative aspect-square h-[100px] w-[100px]">
