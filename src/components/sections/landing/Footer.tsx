@@ -53,7 +53,7 @@ export default function Footer() {
                 key={label}
                 href={href}
                 target="_blank"
-                className="bg-neutral-800 text-neutral-100">
+                className="bg-neutral-900 text-neutral-100">
                 <i className={icon} />
                 {label}
               </LinkButton>
