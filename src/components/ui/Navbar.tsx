@@ -3,7 +3,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Fragment, useCallback, useEffect, useState } from "react";
+import { Fragment, Suspense, useCallback, useEffect, useState } from "react";
+
+export default function Navbar() {
+  // Adding suspense here
+  // Ref: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+  return (
+    <Suspense>
+      <NavbarContent />
+    </Suspense>
+  );
+}
 
 const NAV_LINKS = [
   { href: "/#projects", label: "Projects" },
@@ -13,7 +23,7 @@ const NAV_LINKS = [
   { href: "/#contact", label: "Contact" }
 ];
 
-export default function Navbar() {
+export function NavbarContent() {
   const pathname = usePathname();
 
   useEffect(() => {
