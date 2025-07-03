@@ -28,7 +28,7 @@ export default async function Projects() {
             id={project.id}
             title={project.title}
             stack={project.stack}
-            href={`/project/${project.id}`}
+            href={`/projects/${project.id}`}
             description={project.description}
             image={`/assets/images/projects/${project.image}`}
             className="md:w-[calc((100%-20px)/2)] lg:w-[calc((100%-20px*2)/3)]"

@@ -4,4 +4,5 @@ interface Project {
   description: string;
   image: string;
   stack: string[];
+  markdown?: string;
 }
