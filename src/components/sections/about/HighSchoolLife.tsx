@@ -16,31 +16,24 @@ export default function HighSchoolLife() {
       <AboutContent>
         <AboutTitle>High School Life</AboutTitle>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          During my high school years at Jose P. Laurel High School, I
+          consistently belonged to the top section, a testament to my dedication
+          and strong academic performance. My time there laid the foundation for
+          my academic discipline and my curiosity in tech-related fields, which
+          would eventually shape my college journey.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          One highlight was when I participated in the Division-Wide Newswriting
+          Journalism Contest, where I proudly placed 8th. It was my first taste
+          of competitive writing and helped me improve my analytical thinking
+          and communication skills, both of which are essential in the field of
+          computer science today.
         </AboutParagraph>
         <AboutParagraph>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste delectus
-          aliquid, at nulla, obcaecati eum saepe quibusdam voluptates eligendi
-          repellendus enim libero? Dignissimos exercitationem illum eos
-          voluptate veniam, maxime sapiente quaerat incidunt, corrupti cum
-          tempora praesentium commodi blanditiis neque magnam voluptatum sit
-          consequuntur mollitia! Reiciendis pariatur minus quae corrupti
-          temporibus.
+          I graduated with honors, securing the overall 6th rank in our
+          graduating batch. Achieving this while being active in extracurricular
+          and academic events was a challenge, but it trained me to balance
+          responsibilities and maintain a strong work ethic.
         </AboutParagraph>
       </AboutContent>
     </AboutSection>
