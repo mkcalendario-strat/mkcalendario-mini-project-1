@@ -3,4 +3,11 @@
     margin: auto;
     padding: 0 20px;
   }
+
+  .container-thin {
+    @apply container;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 900px;
+  }
 }
