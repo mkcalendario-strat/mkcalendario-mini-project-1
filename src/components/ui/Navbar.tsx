@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Fragment, useCallback, useEffect, useState } from "react";
 
 const NAV_LINKS = [
@@ -13,6 +14,20 @@ const NAV_LINKS = [
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // window.location.hash has the id to scroll to
+    const hash = window.location.hash?.substring(1); // remove the '#'
+
+    if (hash) {
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [pathname]);
+
   return (
     <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900 py-[10px]">
       <div className="container">
