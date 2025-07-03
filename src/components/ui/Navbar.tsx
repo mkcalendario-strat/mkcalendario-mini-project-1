@@ -2,7 +2,18 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment, useCallback, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { Fragment, Suspense, useCallback, useEffect, useState } from "react";
+
+export default function Navbar() {
+  // Adding suspense here
+  // Ref: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+  return (
+    <Suspense>
+      <NavbarContent />
+    </Suspense>
+  );
+}
 
 const NAV_LINKS = [
   { href: "/#projects", label: "Projects" },
@@ -12,7 +23,21 @@ const NAV_LINKS = [
   { href: "/#contact", label: "Contact" }
 ];
 
-export default function Navbar() {
+export function NavbarContent() {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // window.location.hash has the id to scroll to
+    const hash = window.location.hash?.substring(1); // remove the '#'
+
+    if (hash) {
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [pathname]);
+
   return (
     <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900 py-[10px]">
       <div className="container">
@@ -59,6 +84,7 @@ function Menu() {
       <MenuItems
         isMobile={isMobile}
         isMenuOpen={isMenuOpen}
+        toggleMenu={toggleMenu}
       />
 
       <MenuButton
@@ -72,9 +98,10 @@ function Menu() {
 interface MenuItemsProps {
   isMobile: boolean | null;
   isMenuOpen: boolean;
+  toggleMenu: () => void;
 }
 
-function MenuItems({ isMobile, isMenuOpen }: MenuItemsProps) {
+function MenuItems({ isMobile, isMenuOpen, toggleMenu }: MenuItemsProps) {
   const shouldDisplay = (isMobile && isMenuOpen) || isMobile === false;
 
   if (!shouldDisplay) return null;
@@ -85,6 +112,7 @@ function MenuItems({ isMobile, isMenuOpen }: MenuItemsProps) {
         <Link
           key={i}
           href={link.href}
+          onClick={toggleMenu}
           className="block rounded-sm font-[500] text-neutral-200 duration-300 ease-in-out md:px-[15px] md:py-[5px] md:text-neutral-200 md:hover:bg-neutral-700">
           {link.label}
         </Link>
