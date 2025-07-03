@@ -1,5 +1,6 @@
 import About from "@/components/sections/landing/About";
 import CompaniesBar from "@/components/sections/landing/CompaniesBar";
+import Contact from "@/components/sections/landing/Contact";
 import Experiences from "@/components/sections/landing/Experiences";
 import Footer from "@/components/sections/landing/Footer";
 import Hero from "@/components/sections/landing/Hero";
@@ -18,6 +19,7 @@ export default function Home() {
       <Techonologies />
       <Experiences />
       <About />
+      <Contact />
       <Footer />
     </Fragment>
   );
