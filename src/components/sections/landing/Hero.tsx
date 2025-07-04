@@ -66,7 +66,7 @@ function ActionButtons() {
       </LinkButton>
 
       <LinkButton
-        href="/#projects"
+        href="/projects"
         className="bg-neutral-100 text-neutral-900">
         <i className="far fa-cube" />
         View Projects
