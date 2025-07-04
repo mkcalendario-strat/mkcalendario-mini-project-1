@@ -1,3 +1,4 @@
+import Footer from "@/components/sections/landing/Footer";
 import DisplayProject from "@/components/sections/projects/DisplayProject";
 import Navbar from "@/components/ui/Navbar";
 import { Fragment } from "react";
@@ -13,6 +14,7 @@ export default async function Project({ params }: ProjectProps) {
     <Fragment>
       <Navbar />
       <DisplayProject id={id} />
+      <Footer />
     </Fragment>
   );
 }
