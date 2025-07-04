@@ -1,18 +1,21 @@
+"use client";
+
 import {
   Section,
   SectionTitle,
   SectionWrapper
 } from "@/components/layouts/Section";
 import Techonology from "@/components/ui/Technology";
+import useTechnologies from "@/utils/technologies";
 
-export default async function Techonologies() {
+export default function Techonologies() {
+  const technologies = useTechnologies();
+
   const title = "Ingredients for My Recipe";
   const description =
     "These are the technologies, frameworks, and tools I use to bring ideas to life that covers everything from frontend and backend development.";
 
-  const url = `${process.env.NEXT_PUBLIC_URL}/assets/data/technologies.json`;
-  const response = await fetch(url, { next: { revalidate: 3600 } });
-  const technologies: Technology[] = await response.json();
+  if (!technologies) return;
 
   return (
     <Section

@@ -5,7 +5,7 @@ interface ProjectSectionProps {
   children: React.ReactNode;
 }
 
-export async function ProjectSection({ children }: ProjectSectionProps) {
+export function ProjectSection({ children }: ProjectSectionProps) {
   return (
     <section className="boxes-background min-h-screen py-[100px]">
       <div className="container-thin">
