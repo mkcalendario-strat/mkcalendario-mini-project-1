@@ -2,7 +2,18 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment, useCallback, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { Fragment, Suspense, useCallback, useEffect, useState } from "react";
+
+export default function Navbar() {
+  // Adding suspense here
+  // Ref: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+  return (
+    <Suspense>
+      <NavbarContent />
+    </Suspense>
+  );
+}
 
 const NAV_LINKS = [
   { href: "/#projects", label: "Projects" },
@@ -12,23 +23,38 @@ const NAV_LINKS = [
   { href: "/contact", label: "Contact" }
 ];
 
-export default function Navbar() {
+export function NavbarContent() {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // window.location.hash has the id to scroll to
+    const hash = window.location.hash?.substring(1); // remove the '#'
+
+    if (hash) {
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [pathname]);
+
   return (
-    <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900 py-[10px]">
+    <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900/30 backdrop-blur-2xl">
       <div className="container">
         <div className="flex items-center justify-between">
-          <Link
-            href="/"
-            className="relative aspect-square w-[40px] overflow-hidden">
-            <Image
-              fill
-              alt="brand logo"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              src="/assets/images/logos/light.webp"
-              className="object-contain"
-            />
-          </Link>
-
+          <div className="bg-neutral-100 px-2 py-3">
+            <Link
+              href="/"
+              className="relative block aspect-square w-[40px] overflow-hidden">
+              <Image
+                fill
+                alt="brand logo"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                src="/assets/images/logos/dark.webp"
+                className="object-contain"
+              />
+            </Link>
+          </div>
           <Menu />
         </div>
       </div>

@@ -13,7 +13,7 @@ export default function LinkButton({
   className,
   children
 }: ButtonProps) {
-  const classes = `inline-flex cursor-pointer items-center gap-[10px] rounded-sm px-[20px] py-[10px] text-sm font-[500] shadow-sm ${className ?? ""}`;
+  const classes = `justify-center inline-flex cursor-pointer items-center gap-[10px] rounded-sm px-[20px] py-[10px] text-sm font-[500] shadow-sm ${className ?? ""}`;
 
   return (
     <Link
