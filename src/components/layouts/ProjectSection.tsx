@@ -7,9 +7,11 @@ interface ProjectSectionProps {
 
 export function ProjectSection({ children }: ProjectSectionProps) {
   return (
-    <section className="boxes-background min-h-screen py-[100px]">
+    <section className="boxes-background-inverted min-h-screen py-[100px]">
       <div className="container-thin">
-        <div className="flex flex-col items-baseline gap-10">{children}</div>
+        <div className="flex flex-col items-baseline gap-10 rounded-lg bg-neutral-900 p-[20px] md:p-[40px]">
+          {children}
+        </div>
       </div>
     </section>
   );
@@ -56,7 +58,7 @@ export function ProjectDetails({
       <h1 className="text-5xl font-black text-neutral-100">{title}</h1>
       <p className="text-neutral-200">{description}</p>
 
-      <div className="flex flex-row gap-5">
+      <div className="flex flex-row flex-wrap gap-5">
         {stack.map((tech, i) => (
           <Image
             key={i}
