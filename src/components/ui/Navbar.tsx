@@ -33,7 +33,9 @@ export function NavbarContent() {
     if (hash) {
       const element = document.getElementById(hash);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 1000);
       }
     }
   }, [pathname]);
