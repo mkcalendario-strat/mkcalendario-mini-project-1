@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="boxes-background overflow-hidden pt-[80px] lg:pt-[150px]">
+    <div className="boxes-background overflow-hidden pt-[80px] lg:pt-[100px]">
       <div className="container">
         <div className="relative">
           <Experience />
