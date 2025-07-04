@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { href: "/#stacks", label: "Stacks" },
   { href: "/#experience", label: "Experience" },
   { href: "/#about", label: "About" },
-  { href: "/#contact", label: "Contact" }
+  { href: "/contact", label: "Contact" }
 ];
 
 export default function Navbar() {
