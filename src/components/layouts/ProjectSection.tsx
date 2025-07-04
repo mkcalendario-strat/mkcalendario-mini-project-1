@@ -9,7 +9,7 @@ export function ProjectSection({ children }: ProjectSectionProps) {
   return (
     <section className="boxes-background-inverted min-h-screen py-[100px]">
       <div className="container-thin">
-        <div className="flex flex-col items-baseline gap-10 rounded-lg bg-neutral-900 p-[20px] md:p-[40px]">
+        <div className="flex flex-col items-baseline gap-10 rounded-lg border-1 border-neutral-700 bg-neutral-900 p-[20px] md:p-[40px]">
           {children}
         </div>
       </div>
