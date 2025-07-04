@@ -39,21 +39,22 @@ export function NavbarContent() {
   }, [pathname]);
 
   return (
-    <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900 py-[10px]">
+    <nav className="fixed top-0 left-0 z-1 w-full border-b-1 border-neutral-600 bg-neutral-900/30 backdrop-blur-2xl">
       <div className="container">
         <div className="flex items-center justify-between">
-          <Link
-            href="/"
-            className="relative aspect-square w-[40px] overflow-hidden">
-            <Image
-              fill
-              alt="brand logo"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              src="/assets/images/logos/light.webp"
-              className="object-contain"
-            />
-          </Link>
-
+          <div className="bg-neutral-100 px-2 py-3">
+            <Link
+              href="/"
+              className="relative block aspect-square w-[40px] overflow-hidden">
+              <Image
+                fill
+                alt="brand logo"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                src="/assets/images/logos/dark.webp"
+                className="object-contain"
+              />
+            </Link>
+          </div>
           <Menu />
         </div>
       </div>
