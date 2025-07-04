@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Section,
   SectionTitle,
@@ -32,7 +34,7 @@ const EXPERIENCES: Experience[] = [
   }
 ];
 
-export default async function Experiences() {
+export default function Experiences() {
   const title = "Roles That Built My Expertise";
   const description =
     "A collection of internships and freelance work, that helped sharpen my technical skills, strengthen collaboration, and grow my impact as a developer in real-world environments.";
