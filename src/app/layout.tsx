@@ -6,6 +6,11 @@ const geist = Geist({
   subsets: ["latin"]
 });
 
+export const metadata = {
+  title: "Mark Kenneth Calendario",
+  description: "I'm Mark Kenneth, a full-stack web developer."
+};
+
 interface RootLayoutProps {
   children: React.ReactNode;
 }
