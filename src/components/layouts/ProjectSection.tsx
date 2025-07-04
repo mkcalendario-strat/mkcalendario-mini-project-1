@@ -60,15 +60,18 @@ export function ProjectDetails({
 
       <div className="flex flex-row flex-wrap gap-5">
         {stack.map((tech, i) => (
-          <Image
+          <div
             key={i}
-            alt={tech}
-            width={30}
-            height={30}
-            title={tech}
-            className="filter-gray"
-            src={`/assets/images/stacks/${tech}.svg`}
-          />
+            className="relative aspect-square w-[30px]">
+            <Image
+              fill
+              alt={tech}
+              title={tech}
+              className="filter-gray"
+              sizes="(min-width: 768px) 100vw, 50vw"
+              src={`/assets/images/stacks/${tech}.svg`}
+            />
+          </div>
         ))}
       </div>
     </div>
