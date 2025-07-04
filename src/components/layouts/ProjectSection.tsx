@@ -40,7 +40,7 @@ type ProjectMarkdownProps = Pick<Project, "markdown">;
 
 export function ProjectMarkdown({ markdown }: ProjectMarkdownProps) {
   return (
-    <div className="prose prose-invert">
+    <div className="prose prose-invert w-full text-justify break-words">
       <Markdown>{markdown}</Markdown>
     </div>
   );
