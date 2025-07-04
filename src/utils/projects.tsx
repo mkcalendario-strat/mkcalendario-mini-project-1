@@ -20,7 +20,7 @@ export function useProjectData(projectID: string) {
   return data;
 }
 
-export function useProjects() {
+export function useProjects(limit = 0) {
   const [projects, setProjects] = useState<Project[] | null>(null);
 
   const fetchProjects = useCallback(async () => {
@@ -28,11 +28,13 @@ export function useProjects() {
       const url = `${process.env.NEXT_PUBLIC_URL}/assets/data/projects.json`;
       const request = await fetch(url);
       const result: Project[] = await request.json();
-      setProjects(result);
+      const limited = limit > 0 ? result.slice(0, limit) : result;
+
+      setProjects(limited);
     } catch {
       redirect("/404", RedirectType.replace);
     }
-  }, []);
+  }, [limit]);
 
   useEffect(() => {
     fetchProjects();

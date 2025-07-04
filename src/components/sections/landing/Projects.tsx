@@ -5,11 +5,12 @@ import {
   SectionTitle,
   SectionWrapper
 } from "@/components/layouts/Section";
+import LinkButton from "@/components/ui/LinkButton";
 import ProjectCard from "@/components/ui/ProjectCard";
 import { useProjects } from "@/utils/projects";
 
 export default function Projects() {
-  const projects = useProjects();
+  const projects = useProjects(6);
 
   const title = "Projects I've Cooked and Served";
   const description =
@@ -37,6 +38,13 @@ export default function Projects() {
             className="md:w-[calc((100%-20px)/2)] lg:w-[calc((100%-20px*2)/3)]"
           />
         ))}
+
+        <LinkButton
+          href="/projects"
+          className="bg-blue-500 text-neutral-100">
+          <i className="far fa-cubes" />
+          View All Projects
+        </LinkButton>
       </SectionWrapper>
     </Section>
   );
