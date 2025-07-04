@@ -1,3 +1,5 @@
+"use client";
+
 import {
   ProjectDetails,
   ProjectImage,
@@ -5,22 +7,16 @@ import {
   ProjectSection
 } from "@/components/layouts/ProjectSection";
 import HighlightTab from "@/components/ui/HighlightTab";
-import { getProjectData } from "@/utils/projects";
-import { redirect, RedirectType } from "next/navigation";
+import { useProjectData } from "@/utils/projects";
 
 interface DisplayProjectProps {
   id: string;
 }
 
-export default async function DisplayProject({ id }: DisplayProjectProps) {
-  let project;
+export default function DisplayProject({ id }: DisplayProjectProps) {
+  const project = useProjectData(id);
 
-  try {
-    project = await getProjectData(id);
-    if (!project) throw new Error("Project not found.");
-  } catch {
-    redirect("/404", RedirectType.push);
-  }
+  if (!project) return;
 
   return (
     <ProjectSection>

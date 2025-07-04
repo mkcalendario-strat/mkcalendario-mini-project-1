@@ -1,18 +1,21 @@
+"use client";
+
 import {
   Section,
   SectionTitle,
   SectionWrapper
 } from "@/components/layouts/Section";
 import ProjectCard from "@/components/ui/ProjectCard";
+import { useProjects } from "@/utils/projects";
 
-export default async function Projects() {
+export default function Projects() {
+  const projects = useProjects();
+
   const title = "Projects I've Cooked and Served";
   const description =
     "A curated selection of real-world work that showcases my skills across design, development, and final delivery.";
 
-  const projectURL = "http://localhost:3000/assets/data/projects.json";
-  const request = await fetch(projectURL, { next: { revalidate: 3600 } });
-  const projects: Project[] = await request.json();
+  if (!projects) return;
 
   return (
     <Section id="projects">
