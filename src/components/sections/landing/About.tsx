@@ -11,8 +11,6 @@ export default function About() {
   const description =
     "I'm a curious and driven developer who loves turning ideas into real, working products. Whether I'm building apps, solving problems, or learning something new, I'm all in.";
 
-  const cvURL = process.env.NEXT_PUBLIC_RESUME_URL as string;
-
   return (
     <Section
       id="about"
