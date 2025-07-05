@@ -72,16 +72,9 @@ export default function About() {
           <div className="flex flex-wrap gap-2">
             <LinkButton
               href="/about"
-              className="bg-blue-500 text-neutral-100">
+              className="w-full bg-blue-500 text-lg! font-bold! text-neutral-100">
               Know Me More
               <i className="far fa-arrow-right" />
-            </LinkButton>
-            <LinkButton
-              href={cvURL}
-              target="_blank"
-              className="bg-neutral-100 text-neutral-900">
-              View CV
-              <i className="far fa-file" />
             </LinkButton>
           </div>
         </div>
