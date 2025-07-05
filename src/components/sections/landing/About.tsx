@@ -11,8 +11,6 @@ export default function About() {
   const description =
     "I'm a curious and driven developer who loves turning ideas into real, working products. Whether I'm building apps, solving problems, or learning something new, I'm all in.";
 
-  const cvURL = process.env.NEXT_PUBLIC_RESUME_URL as string;
-
   return (
     <Section
       id="about"
@@ -72,16 +70,9 @@ export default function About() {
           <div className="flex flex-wrap gap-2">
             <LinkButton
               href="/about"
-              className="bg-blue-500 text-neutral-100">
+              className="w-full bg-blue-500 text-lg! font-bold! text-neutral-100">
               Know Me More
               <i className="far fa-arrow-right" />
-            </LinkButton>
-            <LinkButton
-              href={cvURL}
-              target="_blank"
-              className="bg-neutral-100 text-neutral-900">
-              View CV
-              <i className="far fa-file" />
             </LinkButton>
           </div>
         </div>
